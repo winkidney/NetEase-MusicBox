@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#encoding: UTF-8
+# encoding: UTF-8
 
 '''
 __   ___________________________________________
@@ -30,31 +30,29 @@ ________     __________________________  _____ _     _
 
 '''
 
-
 from setuptools import setup, find_packages
 
-
 setup(
-    name = 'NetEase-MusicBox',
-    version = '0.1.0.1.10',
-    packages = find_packages(),
+    name='NetEase-MusicBox',
+    version='0.1.0.1.10',
+    packages=find_packages(),
 
-    include_package_data = True,
+    include_package_data=True,
 
-    install_requires = [
+    install_requires=[
         'requests',
-     ],
+    ],
 
-    entry_points = {
-        'console_scripts' : [
-            'musicbox = src:start'
+    entry_points={
+        'console_scripts': [
+            'musicbox = net_ease_musicbox:start'
         ],
     },
 
-    author = 'vellow',
-    author_email = 'i@vellow.net',
-    url = 'https://github.com/vellow/NetEase-MusicBox',
-    description = 'A sexy command line interface musicbox',
-    keywords = ['music', 'netease', 'cli', 'player'],
-    zip_safe = False,
+    author='vellow',
+    author_email='i@vellow.net',
+    url='https://github.com/vellow/NetEase-MusicBox',
+    description='A sexy command line interface musicbox',
+    keywords=['music', 'netease', 'cli', 'player'],
+    zip_safe=False,
 )
