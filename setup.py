@@ -33,8 +33,8 @@ ________     __________________________  _____ _     _
 from setuptools import setup, find_packages
 
 setup(
-    name='NetEase-MusicBox',
-    version='0.1.0.1.10',
+    name='NetEase-MusicBox-KVer',
+    version='0.0.1',
     packages=find_packages(),
 
     include_package_data=True,
@@ -50,7 +50,7 @@ setup(
     },
 
     author='vellow',
-    author_email='i@vellow.net',
+    author_email='winkidney@gmail.com',
     url='https://github.com/vellow/NetEase-MusicBox',
     description='A sexy command line interface musicbox',
     keywords=['music', 'netease', 'cli', 'player'],
